@@ -1,0 +1,13 @@
+prefix=/Users/charaneesh/Documents/nvidiaNIM/venv
+exec_prefix=/Users/charaneesh/Documents/nvidiaNIM/venv
+libdir=/Users/charaneesh/Documents/nvidiaNIM/venv/lib
+sharedlibdir=/Users/charaneesh/Documents/nvidiaNIM/venv/lib
+includedir=/Users/charaneesh/Documents/nvidiaNIM/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
